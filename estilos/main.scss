@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    &__h1{
+        font-size: 24px;
+        text-decoration: rebeccapurple;
+    }
+
+    &__nav{
+
+        &__ul{
+            list-style: none;
+            padding: 0.5rem;
+            
+            &__a{
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.header__h1 {
+  font-size: 24px;
+  -webkit-text-decoration: rebeccapurple;
+          text-decoration: rebeccapurple;
+}
+
+.header__nav__ul {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.header__nav__ul__a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
