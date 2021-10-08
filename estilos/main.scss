@@ -5,22 +5,29 @@
 }
 
 .header{
+    background-color: salmon;
     height: 25vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
 
     &__h1{
-        font-size: 24px;
-        text-decoration: rebeccapurple;
+        font-size: 36px;
+        color: rebeccapurple;
     }
 
     &__nav{
+        padding: 1rem;
+        background-color: blue;
 
         &__ul{
+            background-color: blueviolet;
+            display: flex;
             list-style: none;
-            padding: 0.5rem;
-            
+            padding: 2rem;
+            color: seagreen;
+
             &__a{
                 text-decoration: none;
             }

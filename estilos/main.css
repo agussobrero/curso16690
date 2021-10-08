@@ -6,6 +6,7 @@
 }
 
 .header {
+  background-color: salmon;
   height: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,18 +14,30 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 1rem;
 }
 
 .header__h1 {
-  font-size: 24px;
-  -webkit-text-decoration: rebeccapurple;
-          text-decoration: rebeccapurple;
+  font-size: 36px;
+  color: rebeccapurple;
+}
+
+.header__nav {
+  padding: 1rem;
+  background-color: blue;
 }
 
 .header__nav__ul {
+  background-color: blueviolet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   list-style: none;
-  padding: 0.5rem;
+  padding: 2rem;
+  color: seagreen;
 }
 
 .header__nav__ul__a {
