@@ -19,18 +19,47 @@
 
     &__nav{
         padding: 1rem;
-        background-color: blue;
 
         &__ul{
-            background-color: blueviolet;
             display: flex;
             list-style: none;
             padding: 2rem;
             color: seagreen;
 
+            &__li{
+                padding: 8px 12px;
+                margin: 3px;
+                background-color: beige;
+                border-radius: 8px;
+
             &__a{
                 text-decoration: none;
+                
+                &:hover{
+                    color: cadetblue;
+                }               
+                }
             }
         }
+    }
+}
+
+.git-use{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+    border-bottom: slateblue solid 1px;
+
+    &__h2{
+        color: salmon;
+        font-size: 30px;
+    }
+
+    &__p{
+        width: 55%;
+        align-items: center;
+        text-align: center;
     }
 }
