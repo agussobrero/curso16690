@@ -63,3 +63,23 @@
         text-align: center;
     }
 }
+
+.git-get{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+    border-bottom: slateblue solid 1px;
+
+    &__h2{
+        color: salmon;
+        font-size: 30px;
+    }
+
+    &__p{
+        width: 55%;
+        align-items: center;
+        text-align: center;
+    }
+}
