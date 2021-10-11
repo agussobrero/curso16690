@@ -83,3 +83,38 @@
         text-align: center;
     }
 }
+
+.footer{
+    background-color: springgreen;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+
+    &__h4{
+        padding: 2rem;
+        font-size: 32px;
+        color: violet;
+    }
+
+    &__cont{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+        &__ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: yellow;
+            margin: 4rem;
+            padding: 3rem;
+
+            &__li{
+                color: turquoise;
+            }
+        }
+    }
+
+}
